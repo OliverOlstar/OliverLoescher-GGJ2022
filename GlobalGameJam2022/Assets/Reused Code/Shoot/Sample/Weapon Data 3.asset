@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e588af4b48d9aa5499313ab15a7e7efe, type: 3}
+  m_Name: Weapon Data 3
+  m_EditorClassIdentifier: 
+  displayName: Untitled
+  description: 
+  fireType: 1
+  bulletType: 1
+  burstFireCount: 8
+  bulletsPerShot: 1
+  damage: 1
+  critChance01: 0
+  critDamageMultiplier: 2
+  projecilePoolKey: 
+  projectilePrefab: {fileID: 1527966059315699084, guid: 54d371e63a7681b4788baa4933d2a213, type: 3}
+  bulletCollision: 0
+  lifeTime: {x: 1, y: 1}
+  shootForce: {x: 15, y: 17}
+  bulletGravity: 5
+  range: 25
+  hitFXPrefab: {fileID: 7706684984111978519, guid: abb7ebaa9d2a280409e9543ff95e31f8, type: 3}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  startShootingType: 1
+  secondsBetweenShots: 0.2
+  secondsBetweenBurstShots: 0.1
+  chargeSeconds: 1
+  spreadType: 1
+  spreadVector: {x: 0.2, y: 0.2}
+  spreadVectorMax: {x: 0.5, y: 0.5}
+  spreadRadius: 1
+  spreadRadiusMax: 5
+  spreadIncrease: 0.4
+  spreadDecrease: 1
+  recoilForce: {x: 0, y: 0, z: -0.6}
+  hitForce: 8
+  ammoType: 2
+  totalAmmo: 12
+  clipAmmo: 4
+  reloadDelaySeconds: 0.6
+  reloadIntervalSeconds: 0.2
+  shotSound:
+    clips:
+    - {fileID: 8300000, guid: 9f9e709f27a3273449df94df4f6cc39f, type: 3}
+    volume: 0.6
+    pitch: {x: 0.9, y: 1.2}
+  failedShotSound:
+    clips: []
+    volume: 1
+    pitch: {x: 0.9, y: 1.2}
+  reloadSound:
+    clips: []
+    volume: 1
+    pitch: {x: 0.9, y: 1.2}
+  outOfAmmoSound:
+    clips: []
+    volume: 1
+    pitch: {x: 0.9, y: 1.2}
+  onReloadedSound:
+    clips: []
+    volume: 1
+    pitch: {x: 0.9, y: 1.2}
